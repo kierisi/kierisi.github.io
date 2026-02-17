@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+<!-- Young Serif & Roboto Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Roboto:wght@300;400;700&display=swap">
+
+<!-- Link to our CSS in the static folder -->
+<link rel="stylesheet" href="/css/custom.css">
+
+<header>
+  <a href="/" class="title">
+    <h1>{{ .Site.Title }}</h1>
+  </a>
+  <nav>
+    {{- range .Site.Menus.main -}}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{- end -}}
+  </nav>
+</header>
