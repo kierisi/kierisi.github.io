@@ -1,0 +1,8 @@
+# Quarto build cache and rendered output (generated; never commit)
+/.quarto/
+/_site/
+/_freeze/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
