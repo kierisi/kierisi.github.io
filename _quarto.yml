@@ -1,17 +1,22 @@
 project:
   type: website
+  resources:
+    - CNAME
+
+execute:
+  freeze: auto
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  description: "Visual and Physical AI thoughts and tutorials from a former data scientist"
+  site-url: https://kierisi.github.io
   title: "Jesse Mostipak"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/kierisi
       - icon: bluesky
-        href: https://bsky.app/
+        href: https://bsky.app/profile/kierisi.bsky.social
 format:
   html:
     theme:
