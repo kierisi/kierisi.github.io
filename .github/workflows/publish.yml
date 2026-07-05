@@ -1,0 +1,28 @@
+name: Publish site
+
+# Run on every push to main, and allow manual runs from the Actions tab
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Let the built-in token write to the gh-pages branch
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

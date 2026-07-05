@@ -1,8 +1,11 @@
 # Quarto build cache and rendered output (generated; never commit)
 /.quarto/
 /_site/
-/_freeze/
+# NOTE: _freeze/ is intentionally NOT ignored here.
+# It holds frozen notebook outputs that CI reuses instead of re-executing.
 
 # OS / editor cruft
 .DS_Store
 .vscode/
+
+**/*.quarto_ipynb
