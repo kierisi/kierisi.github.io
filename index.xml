@@ -10,7 +10,7 @@
 <atom:link href="https://kierisi.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Visual and Physical AI thoughts and tutorials from a former data scientist</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 02 Jul 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -30,7 +30,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://kierisi.github.io/posts/post-with-code/</guid>
-  <pubDate>Thu, 02 Jul 2026 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
   <media:content url="https://kierisi.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -52,7 +52,7 @@
  ]]></description>
   <category>news</category>
   <guid>https://kierisi.github.io/posts/welcome/</guid>
-  <pubDate>Mon, 29 Jun 2026 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
